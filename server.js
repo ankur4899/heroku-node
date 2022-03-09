@@ -110,6 +110,8 @@ app.use('/oauth', async (req, res) => {
 })
 
 app.use('/subscribe', async (req, res) => {
+	console.log("Res", res);
+	console.log("req", req);
 	console.log("Data", res.body);
 	res.send({ data: [1, 2, 3] });
 })
