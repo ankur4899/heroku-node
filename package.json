@@ -6,7 +6,27 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "ejs": "~1.0.0",
-    "express": "~4.9.8"
+    "body-parser": "^1.19.0",
+    "debug": "^4.1.1",
+    "dotenv": "^8.1.0",
+    "express": "^4.16.3",
+    "formidable": "^1.2.1",
+    "hubspot": "^2.3.5",
+    "if-env": "^1.0.4",
+    "lodash": "^4.17.15",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prefer-arrow": "^1.1.6",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.18.2"
   }
 }
