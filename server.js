@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 3000
 const CLIENT_ID = process.env.HUBSPOT_CLIENT_ID
 const CLIENT_SECRET = process.env.HUBSPOT_CLIENT_SECRET
 const SCOPES = 'files'
-const REDIRECT_URI = `http://localhost:${PORT}/oauth-callback`
+const REDIRECT_URI = `https://heroku-node-ankur.herokuapp.com/oauth-callback`
 const UPLOAD_RESULT_URL_PROPERTY = 'friendly_url'
 
 let fileByUrl
