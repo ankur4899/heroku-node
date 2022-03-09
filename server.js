@@ -109,6 +109,10 @@ app.use('/oauth', async (req, res) => {
 	res.redirect(authorizationUrl)
 })
 
+app.use('/subscribe', async (req, res) => {
+	res.send({ data: [1, 2, 3] });
+})
+
 app.use('/oauth-callback', async (req, res) => {
 	const code = _.get(req, 'query.code')
 
